@@ -1,4 +1,4 @@
-rie uma classe que modele uma bola e permita trocar e consultar a
+1) Crie uma classe que modele uma bola e permita trocar e consultar a
 cor da bola.
 
 2) Crie uma classe que modele um quadrado e permita definir, alterar e
