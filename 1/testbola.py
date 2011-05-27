@@ -5,15 +5,15 @@ from bola import Bola
 
 class TestBola(unittest.TestCase):
 
-    def test_obter_cor(self):
-        bola = Bola()
-        bola.definir_cor('Azul')
-        bola.obter_cor() |should| equal_to('Azul')
-
     def test_definir_cor(self):
         bola = Bola()
         bola.definir_cor('Azul')
         bola.obter_cor() |should| equal_to ('Azul')
+
+    def test_obter_cor(self):
+        bola = Bola()
+        bola.definir_cor('Azul')
+        bola.obter_cor() |should| equal_to('Azul')
 
     def test_alterar_cor(self):
         bola = Bola()
