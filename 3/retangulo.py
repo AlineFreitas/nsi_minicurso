@@ -1,6 +1,6 @@
 #coding: utf-8
 # 3) Crie uma classe que modele um retângulo e permita definir, alterar e consultar os valores dos lados, obter a área e obter o perímetro.
-class Retangulo:
+class Retangulo(object):
 
     def __init__(self, base, altura):
         self.base = base
