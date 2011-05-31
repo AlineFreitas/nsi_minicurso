@@ -16,4 +16,4 @@ class Televisao(object):
         self.power = False
 
     def alterar_canal(self, descricao_canal_a_ser_alterado, novo_numero):
-        
+        pass        
