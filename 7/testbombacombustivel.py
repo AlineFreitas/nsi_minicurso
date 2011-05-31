@@ -37,6 +37,12 @@ class TestBomba(unittest.TestCase):
         bomba.encher_bomba()
         bomba.abastecer_litro(10) |should| equal_to(16.89)
 
+    #Deve ser permitido também alterar o valor do preço por litro.
+    def test_alterar_preco_do_litro(self):
+        bomba = Bomba(5000, 1.689)
+        bomba.alterar_preco_litro(2.95)
+        bomba.preco_litro |should| equal_to(2.95)
+
     #Deve ser tratada a situação de não haver combustível suficiente na bomba para um determinado abastecimento.
     def test_abastecer_litro_alem_reserva(self):
         bomba = Bomba(5000, 1.689)

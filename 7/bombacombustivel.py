@@ -27,3 +27,6 @@ class Bomba(object):
             return self.preco_litro*litros_desejados
         else:
             return 'Reserva Insuficiente. Operação Abortada'
+
+    def alterar_preco_litro(self, novo_preco_litro):
+        self.preco_litro = novo_preco_litro
